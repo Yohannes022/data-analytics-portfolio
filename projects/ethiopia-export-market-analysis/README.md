@@ -9,6 +9,48 @@
 - **Status:** In progress / completed
 - **Last updated:** YYYY-MM-DD
 
+## Research Design
+
+### Research Questions
+
+This project investigates Ethiopia's merchandise export performance and its evolution across products and international markets.
+
+The main questions are:
+
+1. How have Ethiopia's merchandise exports changed over time?
+2. Which products contribute most to export earnings?
+3. Which international markets are the main export destinations?
+4. How diversified are Ethiopia's export products and destination markets?
+5. What opportunities and risks can be identified from historical export patterns?
+
+### Planned Methodology
+
+The analysis will use Python and a combination of:
+
+- **Exploratory Data Analysis (EDA):** Understanding export trends, product composition, and destination markets.
+- **Time-Series Analysis:** Examining annual export values, growth rates, and changes over time.
+- **Concentration Analysis:** Using market shares and the Herfindahl-Hirschman Index (HHI) to measure product and destination concentration.
+- **Comparative Analysis:** Comparing product and market contributions across reporting periods.
+- **Data Visualization:** Presenting trends, distributions, rankings, and analytical findings.
+
+The final methods will depend on the availability, quality, and structure of the selected data.
+
+### Data Source and Usage Considerations
+
+UN Comtrade is the initial candidate data source because it provides internationally reported merchandise trade statistics.
+
+However, its API access limits and licensing conditions require careful evaluation before data collection. Public API access does not automatically grant permission to redistribute downloaded or processed data.
+
+The project will therefore verify data availability, API requirements, and publication permissions before selecting the final data-acquisition strategy.
+
+See [Research Design](docs/research-design.md) and [Data Governance](docs/data-governance.md) for further details.
+
+### Current Status
+
+**Phase:** Research design and source validation.
+
+The repository structure and Python environment are established. Data-source evaluation is underway. Data collection and analysis have not yet started.
+
 ## 2. Problem statement
 
 <What real-world question are you investigating? Who might use the answer?>
