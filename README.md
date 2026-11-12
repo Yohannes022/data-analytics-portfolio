@@ -47,4 +47,5 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter, SQL (where relevant).
 ## Contact
 
 - GitHub: https://github.com/Yohannes022
-- LinkedIn: Add your LinkedIn URL
+- LinkedIn: https://www.linkedin.com/in/yohannes-tesfaye021/
+  
