@@ -1,13 +1,11 @@
 # Project title
 
-<One-sentence description of the problem and the value of this analysis.>
-
 ## 1. Overview
 
-- **Domain:** <e.g., food prices, public health, climate>
+- **Domain:** Ethiopian Trade Market Analysis
 - **Project type:** Exploratory / diagnostic / descriptive / other
-- **Status:** In progress / completed
-- **Last updated:** YYYY-MM-DD
+- **Status:** Stopped
+- **Last updated:** 13 Nov, 2026
 
 ## Research Design
 
@@ -51,66 +49,16 @@ See [Research Design](docs/research-design.md) and [Data Governance](docs/data-g
 
 The repository structure and Python environment are established. Data-source evaluation is underway. Data collection and analysis have not yet started.
 
-## 2. Problem statement
+## Dataset Limitations and Analytical Considerations
 
-<What real-world question are you investigating? Who might use the answer?>
+During the exploratory assessment of the dataset, the available data was found to contain only 42 observations across 32 variables.
 
-## 3. Objectives and questions
+Although the dataset provides an opportunity to practice data inspection, preprocessing, and exploratory analysis, its limited number of observations presents challenges for identifying reliable patterns, meaningful relationships, and statistically representative market trends.
 
-1. <Question 1>
-2. <Question 2>
-3. <Question 3>
+The relatively high number of variables compared with the number of observations also limits the depth of potential analysis and increases the risk of drawing misleading conclusions from small sample sizes.
 
-## 4. Dataset
+**Project assessment:** The available dataset was considered insufficient for the intended depth of export-market analysis. Consequently, further analytical development was paused rather than producing conclusions that could not be adequately supported by the available evidence.
 
-| Dataset | Source | Coverage | License / access |
-|---|---|---|---|
-| <Name> | <URL or citation> | <Dates, geography, rows> | <License or terms> |
+**Future improvement:** The analysis may be revisited when a larger, more comprehensive dataset with sufficient observations, consistent reporting periods, and relevant export-market indicators becomes available.
 
-Document collection date, units, definitions, missingness, known biases, and whether data is real, synthetic, or modified. Do not publish data you are not permitted to redistribute.
-
-## 5. Tools and environment
-
-- Python:
-- Libraries:
-- Database / BI tools:
-- Environment setup:
-
-## 6. Repository contents
-
-Explain the purpose of each important folder and file.
-
-## 7. Methodology
-
-Describe data ingestion, quality checks, cleaning, transformations, analysis, and validation. Explain important decisions rather than merely listing library functions.
-
-## 8. Key findings
-
-Include only findings supported by the analysis. Add figures from `reports/figures/` with captions and units.
-
-## 9. Recommendations / implications
-
-Explain what a decision-maker or stakeholder could reasonably do with these findings. Distinguish evidence from interpretation.
-
-## 10. Reproducing the analysis
-
-1. Clone the repository.
-2. Create a virtual environment.
-3. Install dependencies.
-4. Obtain the dataset using the documented source/instructions.
-5. Run the notebook or scripts in the stated order.
-
-Use relative paths. Never require a private local file or secret key without explaining setup.
-
-## 11. Limitations
-
-<Discuss data quality, representativeness, assumptions, uncertainty, and what the analysis cannot establish.>
-
-## 12. Future improvements
-
-- [ ] <Improvement 1>
-- [ ] <Improvement 2>
-
-## 13. References
-
-List dataset sources, documentation, and other references.
+This assessment reflects a data-quality and analytical-suitability decision rather than a technical limitation of the analysis tools.
